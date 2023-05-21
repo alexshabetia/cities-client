@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+  cities-client:
+    build:
+      context: .
+    container_name: cities-client
+    ports:
+      - "9090:80"
+    restart: always
